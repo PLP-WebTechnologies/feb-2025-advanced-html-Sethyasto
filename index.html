@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FROST MOUNTAIN CLIMBERS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        form {
+            width: 50%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>FROST MOUNTAIN CLIMBERS</h1>
+
+    <!-- Image Section -->
+    <img src="mtn1.jpg" alt="Mountain Climbing">
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Our Services</h2>
+    <ol type="I">
+        <li>Professional Mountain Guides</li>
+        <li>Climbing Gear Rentals</li>
+        <li>Safety Training</li>
+        <li>Custom Climbing Packages</li>
+        <li>Emergency Support</li>
+    </ol>
+
+    <!-- Table of Contacts -->
+    <h2>Contact Information</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Summit Ave</td>
+            <td>+1234567890</td>
+            <td>johndoe@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>456 Peak Rd</td>
+            <td>+0987654321</td>
+            <td>janesmith@example.com</td>
+        </tr>
+        <tr>
+            <td>Michael Brown</td>
+            <td>789 Ridge St</td>
+            <td>+1122334455</td>
+            <td>michaelbrown@example.com</td>
+        </tr>
+        <tr>
+            <td>Emily Davis</td>
+            <td>321 Climber Ln</td>
+            <td>+6677889900</td>
+            <td>emilydavis@example.com</td>
+        </tr>
+        <tr>
+            <td>Chris Wilson</td>
+            <td>654 Alpine Blvd</td>
+            <td>+4433221100</td>
+            <td>chriswilson@example.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Register for a Climb</h2>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label>Preferred Climbing Package:</label>
+        <select name="package" required>
+            <option value="">--Select a Package--</option>
+            <option value="beginner">Beginner Climb</option>
+            <option value="intermediate">Intermediate Climb</option>
+            <option value="advanced">Advanced Climb</option>
+        </select>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+
+        <label>Equipment Needed:</label>
+        <input type="checkbox" name="gear" value="helmet"> Helmet
+        <input type="checkbox" name="gear" value="rope"> Climbing Rope
+        <input type="checkbox" name="gear" value="shoes"> Climbing Shoes
+
+        <br><br>
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
